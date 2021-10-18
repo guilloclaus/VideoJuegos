@@ -166,9 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 169317865fb0ab74f873228f2c7f4277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Bala: {fileID: 6811104926964077148, guid: be19dfd45ee94c54c8bb3d4328eaac73, type: 3}
-  startDelay: 2
-  spawnInterval: 1.5
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,6 +486,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 5220976552702463634, guid: 858bda3a809699241a049746eb46e9e0, type: 3}
+      propertyPath: Bala
+      value: 
+      objectReference: {fileID: 6811104926964077148, guid: be19dfd45ee94c54c8bb3d4328eaac73, type: 3}
+    - target: {fileID: 5220976552702463634, guid: 858bda3a809699241a049746eb46e9e0, type: 3}
+      propertyPath: PuntoDisparo
+      value: 
+      objectReference: {fileID: 638574180}
     - target: {fileID: 8073776467227203465, guid: 858bda3a809699241a049746eb46e9e0, type: 3}
       propertyPath: m_Name
       value: Canyon
